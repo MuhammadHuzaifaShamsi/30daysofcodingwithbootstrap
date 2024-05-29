@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+.h-font {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+
+.hero {
+    width: 35%;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.hero-para {
+    font-size: 18px;
+    color: #356498;
+}
+
+.hero-head {
+    color: #1B4679;
+}
+
+.bg-footer {
+    background-color: #356498;
+}
+
+.social-icons:hover{
+    transform: translateX(20px);
+    transition: 900ms;
+}
