@@ -18,3 +18,15 @@
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Full Navigation, with pricing and login/signup forms</li>
 </ul>
+
+<br>
+
+<h3>Day 3</h3>
+<h5>Startup Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Fully Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Perfect for showcasing a new business.</li>
+  <li>Designed to attract investors and customers.</li>
+</ul>
