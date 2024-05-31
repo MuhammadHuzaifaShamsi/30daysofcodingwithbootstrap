@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.h-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.contact-card:hover{
+    transform: scale(1.07);
+    transition: 700ms;
+}
