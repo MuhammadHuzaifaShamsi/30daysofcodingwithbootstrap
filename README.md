@@ -30,3 +30,14 @@
   <li>Perfect for showcasing a new business.</li>
   <li>Designed to attract investors and customers.</li>
 </ul>
+
+<br>
+
+<h3>Day 4</h3>
+<h5>Event Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Non-Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Ideal for promoting events and engaging attendees.</li>
+</ul>
