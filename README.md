@@ -41,6 +41,7 @@
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Ideal for promoting events and engaging attendees.</li>
 </ul>
+<<<<<<< HEAD
 
 <h3>Day 5</h3>
 <h5>SaaS Website</h5>
@@ -51,3 +52,5 @@
   <li>In this SaaS project I made a movies watching website.</li>
   <li>Ideal for entertainment businesses.</li>
 </ul>
+=======
+>>>>>>> origin/main
