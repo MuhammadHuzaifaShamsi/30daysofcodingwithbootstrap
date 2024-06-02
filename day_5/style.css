@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+.h-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.hero {
+    background-image: url('images/hero_bg.jpg');
+    filter: blru(3px);
+    -webkit-filter: blur(3px);
+    height: 600px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    color: #fff;
+}
+
+.hero-email {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 38px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.hero-email::placehodler {
+    color: #fff;
+}
+
+.hero-email::-ms-input-placeholder {
+    color: #fff;
+}
+.hero-email::-moz-input-placeholder {
+    color: #fff;
+}
+.hero-email::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.hero-email:focus {
+    outline: 0;
+}
+
+.contact-email {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 38px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.contact-email::placehodler {
+    color: #000;
+}
+
+.contact-email::-ms-input-placeholder {
+    color: #000;
+}
+.contact-email::-moz-input-placeholder {
+    color: #000;
+}
+.contact-email::-webkit-input-placeholder {
+    color: #000;
+}
+
+.contact-email:focus {
+    outline: 0;
+}
+
+
+.contact-card:hover {
+    transform: scale(1.07);
+    transition: 700ms;
+}

@@ -1,0 +1,41 @@
+.price-innerdetail h5 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.price-innerdetail p {
+    font-size: 50px;
+}
+
+.detail-pricing {
+    border-bottom: 1px solid;
+    padding: 30px 0 30px 0;
+}
+
+.detail-pricing .float-left {
+    padding: 0 0 0 40px;
+}
+
+.detail-pricing .float-left i {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+.detail-pricing span {
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+}
+
+.wrap-price {
+    background: rgba(104, 107, 120, 0.1);
+    padding: 50px 20px 50px;
+    border-radius: 10px;
+}
+
+.center-wrap {
+    background: #070707;
+    color: #fff;
+}
