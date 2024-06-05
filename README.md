@@ -52,3 +52,30 @@
   <li>In this SaaS project I made a movies watching website.</li>
   <li>Ideal for entertainment businesses.</li>
 </ul>
+
+<h3>Day 6</h3>
+<h5>Fitness Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Fully Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+</ul>
+
+<h3>Day 7</h3>
+<h5>Portfolio Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Fully Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Ideal for Personal or Professional Brand.</li>
+  <li>Good for showcasing skills.</li>
+</ul>
+
+<h3>Day 8</h3>
+<h5>Ebook Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Non-Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Ideal for Authors/Writers to showcase their works and attract potential clients.</li>
+</ul>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7 | Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects-cards.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+</head>
+
+<body class="bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark shadow-lg sticky-top p-3" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <i class="bi bi-circle-fill text-main"></i>
+                <i class="bi bi-circle-fill text-main"></i>
+            </div>
+            <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 order-lg-1 order-2 d-flex flex-column align-items-center 
+                justify-content-center mt-5 mt-lg-0">
+                <h4 class="fs-2 h-font fw-bold">Hi,</h4>
+                <h4 class="fs-1 h-font fw-bold">I'm <span class="text-main">MH</span></h4>
+                <div class="mt-3">
+                    <a class="bg-main border-0 text-light rounded p-2" href="#about">More About
+                        Me</a>
+                    <a class="bg-light border-0 text-dark rounded p-2" href="#contact">Hire
+                        Me</a>
+                </div>
+            </div>
+            <div class="col-lg-6 bg-main order-lg-2 order-1">
+                <img src="images/me.png" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="container mt-5 px-5 px-lg-0">
+        <div class="text-center">
+            <h6 class="text-secondary h-font fs-6">Home > About</h6>
+            <h3 class="h-font fw-bold fs-1">About</h3>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-5 text-center bg-light me-3 py-5 rounded">
+                        <h4 class=" h-font text-cards fw-bold fs-1">5,000</h4>
+                        <h6 class="text-dark fs-5">Happy Clients</h6>
+                    </div>
+                    <div class="col-lg-5 text-center bg-light me-3 py-5 rounded mt-3 mt-lg-0">
+                        <h4 class=" h-font text-cards fw-bold fs-1">200</h4>
+                        <h6 class="text-dark fs-5">Projects Done</h6>
+                    </div>
+                    <div class="col-lg-5 text-center bg-light me-3 py-5 rounded mt-3">
+                        <h4 class=" h-font text-cards fw-bold fs-1">300</h4>
+                        <h6 class="text-dark fs-5">Cups of Coffee</h6>
+                    </div>
+                    <div class="col-lg-5 text-center bg-light me-3 py-5 rounded mt-3">
+                        <h4 class=" h-font text-cards fw-bold fs-1">652</h4>
+                        <h6 class="text-dark fs-5">Working Hours</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+                <h5 class="text-main">About me</h5>
+                <h4 class="h-font fs-1">A UI/UX Designer & Web Developer Based In Pakistan</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga labore magni officiis tempore
+                    consequuntur eum.</p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div>Name: &nbsp;&nbsp;&nbsp;&nbsp; <span class="text-main">MH</span></div>
+                        <div>DOB: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="text-main">01-01-2024</span></div>
+                        <div>Address: &nbsp; <span class="text-main">Karachi, PK</span></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>Zip Code: &nbsp; <span class="text-main">74500</span></div>
+                        <div>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+                                class="text-main">example@gmail.com</span></div>
+                        <div>Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="text-main">+92 123 4958961</span></div>
+                    </div>
+                </div>
+                <div class="bg-main mt-4 text-center p-2 rounded" style="width: 150px;">
+                    <a class="border-0 text-light " href="#contact">Hire
+                        Me >></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container-fluid mt-5 p-5 text-light bg-main">
+        <div class="text-center">
+            <h6 class="text-dark h-font fs-6">Home > Services</h6>
+            <h3 class="h-font fw-bold fs-1">Services</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="text-center">
+                    <div><i class="bi bi-code-slash fs-1"></i></div>
+                    <h4><a href="" class="text-light h-font fw-bold">Web Development</a></h4>
+                    <p>I have good skills in css and can create good-looking and attractive web designs</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="text-center">
+                    <div><i class="bi bi-code-slash fs-1"></i></div>
+                    <h4><a href="" class="text-light h-font fw-bold">Web Development</a></h4>
+                    <p>I have good skills in css and can create good-looking and attractive web designs</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                <div class="text-center">
+                    <div><i class="bi bi-code-slash fs-1"></i></div>
+                    <h4><a href="" class="text-light h-font fw-bold">Web Development</a></h4>
+                    <p>I have good skills in css and can create good-looking and attractive web designs</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div class="text-center">
+                    <div><i class="bi bi-code-slash fs-1"></i></div>
+                    <h4><a href="" class="text-light h-font fw-bold">Web Development</a></h4>
+                    <p>I have good skills in css and can create good-looking and attractive web designs</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div class="text-center">
+                    <div><i class="bi bi-code-slash fs-1"></i></div>
+                    <h4><a href="" class="text-light h-font fw-bold">Web Development</a></h4>
+                    <p>I have good skills in css and can create good-looking and attractive web designs</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                <div class="text-center">
+                    <div><i class="bi bi-code-slash fs-1"></i></div>
+                    <h4><a href="" class="text-light h-font fw-bold">Web Development</a></h4>
+                    <p>I have good skills in css and can create good-looking and attractive web designs</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <section class="wrapper mt-5">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary h-font fs-6">Home > Projects</h6>
+                <h3 class="h-font fw-bold fs-1">Projects</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/projects/project.PNG');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                <small class="card-meta mb-2">Thought Leadership</small>
+                                <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Web
+                                        Developmet Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                                <small><i class="far fa-clock"></i> October 15, 2020</small>
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle" src="images/me.png" style="max-width:50px">
+                                    <div class="media-body">
+                                        <h6 class="my-0 text-dark d-block">MH</h6>
+                                        <small>Web Developer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/projects/project.PNG');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                <small class="card-meta mb-2">Thought Leadership</small>
+                                <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Web
+                                        Developmet Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                                <small><i class="far fa-clock"></i> October 15, 2020</small>
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle" src="images/me.png" style="max-width:50px">
+                                    <div class="media-body">
+                                        <h6 class="my-0 text-dark d-block">MH</h6>
+                                        <small>Web Developer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/projects/project.PNG');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                <small class="card-meta mb-2">Thought Leadership</small>
+                                <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Web
+                                        Developmet Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                                <small><i class="far fa-clock"></i> October 15, 2020</small>
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle" src="images/me.png" style="max-width:50px">
+                                    <div class="media-body">
+                                        <h6 class="my-0 text-dark d-block">MH</h6>
+                                        <small>Web Developer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/projects/project.PNG');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                <small class="card-meta mb-2">Thought Leadership</small>
+                                <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Web
+                                        Developmet Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                                <small><i class="far fa-clock"></i> October 15, 2020</small>
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle" src="images/me.png" style="max-width:50px">
+                                    <div class="media-body">
+                                        <h6 class="my-0 text-dark d-block">MH</h6>
+                                        <small>Web Developer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/projects/project.PNG');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                <small class="card-meta mb-2">Thought Leadership</small>
+                                <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Web
+                                        Developmet Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                                <small><i class="far fa-clock"></i> October 15, 2020</small>
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle" src="images/me.png" style="max-width:50px">
+                                    <div class="media-body">
+                                        <h6 class="my-0 text-dark d-block">MH</h6>
+                                        <small>Web Developer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card text-dark card-has-bg click-col"
+                        style="background-image:url('images/projects/project.PNG');">
+                        <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <div class="card-body">
+                                <small class="card-meta mb-2">Thought Leadership</small>
+                                <h4 class="card-title mt-0 "><a class="text-dark" herf="https://creativemanner.com">Web
+                                        Developmet Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+                                <small><i class="far fa-clock"></i> October 15, 2020</small>
+                            </div>
+                            <div class="card-footer">
+                                <div class="media">
+                                    <img class="mr-3 rounded-circle" src="images/me.png" style="max-width:50px">
+                                    <div class="media-body">
+                                        <h6 class="my-0 text-dark d-block">MH</h6>
+                                        <small>Web Developer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <div id="contact" class="container my-5 px-5 px-lg-0">
+        <div class="text-center">
+            <h6 class="text-secondary h-font fs-6">Home > Contact</h6>
+            <h3 class="h-font fw-bold fs-1">Contact Me</h3>
+        </div>
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-lg-6 border-2 border-start border-success p-3">
+                    <h4 class="h-font">Address</h4>
+                    <p>P.E.C.H.S Block-6, Karachi, Pakistan</p>
+                </div>
+                <div class="col-lg-6 mt-3 mt-lg-0 mt-3 p-3 border-2 border-start border-success">
+                    <h4 class="h-font">Social Links</h4>
+                    <a href="#"><i class="bi bi-instagram fs-5"></i> </a>
+                    <a href="#"><i class="bi bi-facebook fs-5"></i> </a>
+                    <a href="#"><i class="bi bi-twitter-x fs-5"></i> </a>
+                    <a href="#"><i class="bi bi-threads fs-5"></i> </a>
+                </div>
+            </div>
+            <form class="mt-3">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label class="form-label">Name</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="col-lg-6 mt-3 mt-lg-0">
+                        <label class="form-label">Email</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <label class="form-label">Subject</label>
+                        <input class="form-control" type="text">
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a class="bg-main border-0 text-light rounded p-2" href="#about">Submit</a>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <h6 class="bg-main text-light m-0 p-3 text-center">Designed & Developed by MH.</h6>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="carousels.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
