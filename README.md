@@ -42,6 +42,7 @@
   <li>Ideal for promoting events and engaging attendees.</li>
 </ul>
 
+<br>
 
 <h3>Day 5</h3>
 <h5>SaaS Website</h5>
@@ -53,6 +54,8 @@
   <li>Ideal for entertainment businesses.</li>
 </ul>
 
+<br>
+
 <h3>Day 6</h3>
 <h5>Fitness Website</h5>
 <ul>
@@ -60,6 +63,8 @@
   <li>Fully Responsive</li>
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
 </ul>
+
+<br>
 
 <h3>Day 7</h3>
 <h5>Portfolio Website</h5>
@@ -70,6 +75,8 @@
   <li>Ideal for Personal or Professional Brand.</li>
   <li>Good for showcasing skills.</li>
 </ul>
+
+<br>
 
 <h3>Day 8</h3>
 <h5>Ebook Website</h5>
