@@ -75,7 +75,7 @@
 <h5>Ebook Website</h5>
 <ul>
   <li>Simple landing page website</li>
-  <li>Non-Responsive</li>
+  <li>Responsive</li>
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Ideal for Authors/Writers to showcase their works and attract potential clients.</li>
 </ul>
