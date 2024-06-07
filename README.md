@@ -86,3 +86,14 @@
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Ideal for Authors/Writers to showcase their works and attract potential clients.</li>
 </ul>
+
+<br>
+
+<h3>Day 9</h3>
+<h5>Webinar Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Ideal for Webinars to gather bigger audience!</li>
+</ul>
