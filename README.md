@@ -97,3 +97,15 @@
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Ideal for Webinars to gather bigger audience!</li>
 </ul>
+
+<br>
+
+<h3>Day 10</h3>
+<h5>Restaurant Website</h5>
+<ul>
+  <li>Simple landing page website</li>
+  <li>Non-Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Perfect for showcasing your dining establishment.</li>
+  <li>Excellent platform for presenting your menu.</li>
+</ul>
