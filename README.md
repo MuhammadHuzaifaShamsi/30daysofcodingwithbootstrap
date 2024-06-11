@@ -120,3 +120,14 @@
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Perfect for showcasing your product.</li>
 </ul>
+
+<br>
+
+<h3>Day 12</h3>
+<h5>BlogSpot Website</h5>
+<ul>
+  <li>A multi-page website</li>
+  <li>Non-Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+  <li>Perfect for showcasing your Blogs, attract readers, and build an audience!</li>
+</ul>

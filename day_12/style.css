@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+body{
+    background-color: whitesmoke !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.h-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.bg-main{
+    background-color: rgb(235, 92, 40);
+    color: #fff;
+}
+
+.bg-main:hover{
+    background-color: rgb(220, 83, 33);
+}
+
+.text-main{
+    color: rgb(235, 92, 40);
+}
+
+.hero-card{
+    height: 26rem !important;
+    background-image: url("images/hero-main.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
