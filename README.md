@@ -131,3 +131,13 @@
   <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
   <li>Perfect for showcasing your Blogs, attract readers, and build an audience!</li>
 </ul>
+
+<br>
+
+<h3>Day 13</h3>
+<h5>Corporate Website</h5>
+<ul>
+  <li>A single-page website</li>
+  <li>Responsive</li>
+  <li>Made with Bootstrap, SwiperJS, and basic HTML & CSS</li>
+</ul>

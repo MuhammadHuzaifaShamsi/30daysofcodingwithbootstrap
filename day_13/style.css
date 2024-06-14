@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merienda", cursive;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.h-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.h-line{
+    width: 7rem;
+    background-color: #000;
+    height: 0.2rem;
+    margin: auto;
+}
+
+.v-line{
+    width: 0.1rem;
+    background-color: #000;
+    height: 2rem;
+}
+
+.land{
+    background-image: url(images/banner.jpg);
+    height: 38rem;
+}
+
+
+.btn-main{
+    width: 12rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #0000ff;
+    color: #fff;
+    padding: 0.4rem 0;
+}
+
+.btn-main:hover{
+    background-color: #0707df;
+    transition: 700ms;
+}
+
+.btn-pri{
+    width: 12rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    background-color: #ffffff00;
+    color: #fff;
+    padding: 0.4rem 0;
+}
+
+.btn-pri:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 700ms;
+}
+
+.banner{
+    background-image: url('images/banner.jpg');
+}
